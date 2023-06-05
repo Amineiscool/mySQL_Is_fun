@@ -1,0 +1,64 @@
+SQL Syntax Elements:
+
+Statement start point: Denotes the beginning of the main syntax line for a statement.
+
+Main syntax line: Determines the order of required and optional elements for the statement.
+
+Keywords: Major words in SQL grammar that are required parts of the syntax.
+
+Literal entry: Specifies the name of a value you explicitly supply to the statement.
+
+Defined term: Represents an operation that returns a final value to be used in the statement.
+
+Optional element: Any element or group of elements that appears below the main syntax line.
+
+Sub-optional element: Denotes an element or group of elements that appears below an optional element.
+
+Option list separator: Indicates that you can specify more than one value for an option using commas.
+
+Alternate option: Denotes a keyword or defined term that can be used as an alternative to one or more optional elements.
+
+Statement end point: Denotes the end of the main syntax line for a statement.
+
+Defined term start point: Denotes the beginning of the main syntax line for a defined term.
+
+Defined term end point: Denotes the end of the main syntax line for a defined term.
+
+Sample SELECT Statement:
+
+SELECT FirstName, LastName, City, DOB AS DateOfBirth
+FROM Students
+WHERE City = 'El Paso'
+
+This SELECT statement retrieves four columns (FirstName, LastName, City, and DOB) from the Students table.
+
+The value expressions can be column names, expressions using column names, or constant (literal) values.
+
+The AS sub-option assigns an alias (DateOfBirth) to the DOB column.
+
+The WHERE clause filters the result to show only students who live in El Paso.
+
+Sample Databases:
+
+The book provides nine sample databases: Sales Orders, Entertainment Agency, School Scheduling, Bowling League, and Recipes.
+
+These databases cover various scenarios such as order entry, event management, school scheduling, bowling league tracking, and recipe management.
+
+Sample databases are provided in formats such as Microsoft Access, Microsoft SQL Server, MySQL, and PostgreSQL.
+
+Instructions on how to install the sample databases are provided in the book.
+
+Important Considerations:
+
+Use ISO-Standard SQL as the base language.
+Modify the sample SQL as necessary to work with your specific database system.
+
+Pay attention to date and time functions supported by your database system.
+
+Refer to the companion script files to see the original SQL used for creating views, functions, or stored procedures.
+
+These notes should provide you with a basic understanding of SQL syntax and the sample databases mentioned. Make sure to refer to the book for detailed explanations and examples as you study further.
+
+
+
+
